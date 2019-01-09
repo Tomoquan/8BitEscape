@@ -1,0 +1,62 @@
+.root{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    min-width: 1280px;
+    min-height: 720px;
+}
+.header{
+    height: 17%;
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.dice{
+    border:4px solid black;
+    width:250px;
+    height:250px;
+    text-align:center;
+    background-color: white;
+    margin-left: 40%;
+    margin-top: 10%;
+    box-shadow: 50px 0px 200px lightgreen, -50px 0px 200px skyblue;
+}
+
+.backGround8Bit{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("binary.png");
+}
+
+.startButton{
+    background-color: greenyellow;
+    height: 200px;
+    width: 400px;
+    font-size: 400%;
+    margin-left: 35%;
+    font-weight: bold;
+    border-color: black;
+    border-width: 5px;
+    border-style: double;
+}
+
+ .title {
+  background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
+  color: red;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 100px;
+  font-family: arial, helvetica;
+  width: 600px;
+  margin: 50px auto;
+  text-align: center;
+  margin-left: 29%;
+}
+
+.numbers{
+    font-size: 600%;
+}
